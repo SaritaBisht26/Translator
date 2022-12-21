@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 68, 120);
+}
+.main{
+    /* border: 1px solid black; */
+    margin:10px 0 0 0 ;
+    width: 740px;
+    height: 560px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 20px  rgba(445,445,445,0.2);
+}
+.main h2{
+    margin: 10px;
+    text-align: center;
+}
+.main-1{
+  
+    display: flex;
+    width: 100%;
+    height: 380px;
+    border-radius: 10px;
+    /* background-color: aliceblue; */
+}
+
+.left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-color: azure;
+}
+.left textarea,.right textarea{
+    margin: 5px 0 0 3px;
+width: 360px;
+height: 376px;
+resize: none;
+font-size: 20px;
+color: rgb(68, 68, 120);
+}
+
+.right{
+    float: right;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-color: azure;
+ }
+ 
+/* items */
+.main-2{
+    margin: 10px 10px 0 10px;
+    width: 97%;
+    height: 40px;
+    border: 1px solid black;
+    background-color: gray;
+}
+.main-2 ul{
+display: flex;
+list-style: none;
+justify-content: center;
+align-items: center;
+gap: 60px;
+}
+ul li{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+ul li select{ 
+    border: none;
+margin: 2px;
+font-size: 15px;
+text-align: center;
+width: 100px;
+height: 35px;
+color: aliceblue;
+border-radius: 10px;
+background-color:  rgb(68, 68, 120);;
+}
+
+
+/* button */
+
+.btn{
+    margin: 10px;
+    height: 50px;
+    background-color:rgb(26, 26, 80);
+    width: 98%;
+}
+
+.btn button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px gray;
+    text-transform: uppercase;
+}
+ 
+button:hover{
+border-radius: 10px;
+background-color:rgb(68, 68, 120);
+color: white;
+}
+
+
+
+@media only screen and (max-width:720px){
+   
+.main{
+   display: none;
+}
+
+
+   
+}
